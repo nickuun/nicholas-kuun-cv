@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/nicholas-kuun-cv/static/css/main.ddc28708.css",
-    "main.js": "/nicholas-kuun-cv/static/js/main.8c30950f.js",
+    "main.css": "/nicholas-kuun-cv/static/css/main.b1747348.css",
+    "main.js": "/nicholas-kuun-cv/static/js/main.f93dc2c4.js",
     "static/media/cv.pdf": "/nicholas-kuun-cv/static/media/cv.1676dcdc83730930d888.pdf",
-    "static/media/me.png": "/nicholas-kuun-cv/static/media/me.821ecddcb9953b46bf75.png",
-    "static/media/me-about.jpg": "/nicholas-kuun-cv/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "static/media/me-about.jpg": "/nicholas-kuun-cv/static/media/me-about.ecfbda80077fb19770d5.jpg",
+    "static/media/me.png": "/nicholas-kuun-cv/static/media/me.fe3d02b98e21713e1a3f.png",
     "static/media/portfolio2.jpg": "/nicholas-kuun-cv/static/media/portfolio2.e93edd413a6abb3f829c.jpg",
     "static/media/portfolio3.jpg": "/nicholas-kuun-cv/static/media/portfolio3.d321ff56b57e335a1d1b.jpg",
     "static/media/portfolio4.jpg": "/nicholas-kuun-cv/static/media/portfolio4.a9091d98ef5839b33226.jpg",
     "static/media/portfolio1.jpg": "/nicholas-kuun-cv/static/media/portfolio1.9f1e7b434c874bc2b2a6.jpg",
     "index.html": "/nicholas-kuun-cv/index.html",
-    "main.ddc28708.css.map": "/nicholas-kuun-cv/static/css/main.ddc28708.css.map",
-    "main.8c30950f.js.map": "/nicholas-kuun-cv/static/js/main.8c30950f.js.map"
+    "main.b1747348.css.map": "/nicholas-kuun-cv/static/css/main.b1747348.css.map",
+    "main.f93dc2c4.js.map": "/nicholas-kuun-cv/static/js/main.f93dc2c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddc28708.css",
-    "static/js/main.8c30950f.js"
+    "static/css/main.b1747348.css",
+    "static/js/main.f93dc2c4.js"
   ]
 }

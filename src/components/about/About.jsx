@@ -5,8 +5,9 @@ import { FaUsers } from "react-icons/fa";
 import { BiGitBranch } from "react-icons/bi";
 import { MdSchool } from "react-icons/md";
 
-
 const About = () => {
+  const paragraph =
+    "I am currently working as an Associate Application Developer at Autumn Leaf IT. I am humbled by the fact that there is always so much more for me to learn; I strive for an an environment that fosters this sort of attainment.\n I love working collectively as a team, deligating actions to make daunting tasks seem effortless.";
   return (
     <section id="about">
       <h5>Get To Know A Little More</h5>
@@ -21,8 +22,7 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-
-          <article className="about__card">
+            <article className="about__card">
               <MdSchool className="about__icon"></MdSchool>
               <h5>Qualification</h5>
               <small>Computer Science Degree </small>
@@ -44,10 +44,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            explicabo pariatur itaque, doloribus accusamus est quia dolore,
-            perferendis veniam quis, sapiente voluptatibus? Veniam numquam iure
-            neque possimus laboriosam assumenda aliquid?
+           {paragraph}
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

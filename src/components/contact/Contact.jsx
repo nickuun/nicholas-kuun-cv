@@ -39,7 +39,7 @@ const Contact = () => {
             <h4>LinkedIn</h4>
             <h5>linkedin.com/Nicholas-Kuun</h5>
             <a
-              href="https://www.linkedin.com/in/nicholas-kuun-a2a1801a2/"
+              href="https://www.linkedin.com/in/nicholas-ku%C3%BCn-a2a1801a2/"
               target="_blank"
             >
               Send Message

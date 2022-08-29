@@ -9,9 +9,9 @@ const Portfolio = () => {
     {
       id: 1,
       image: IMG1,
-      title: "Simulated Fish Tank",
-      github: "https://github.com",
-      demo: "https://github.com",
+      title: "Digital CV Online",
+      github: "https://github.com/nickuun/nicholas-kuun-cv",
+      demo: "https://nickuun.github.io/nicholas-kuun-cv/",
     },
     {
       id: 2,
@@ -20,20 +20,20 @@ const Portfolio = () => {
       github: "https://github.com",
       demo: "https://github.com",
     },
-    {
-      id: 3,
-      image: IMG3,
-      title: "Simulated Fish Tank",
-      github: "https://github.com",
-      demo: "https://github.com",
-    },
-    {
-      id: 4,
-      image: IMG4,
-      title: "Simulated Fish Tank",
-      github: "https://github.com",
-      demo: "https://github.com",
-    },
+    // {
+    //   id: 3,
+    //   image: IMG3,
+    //   title: "Simulated Fish Tank",
+    //   github: "https://github.com",
+    //   demo: "https://github.com",
+    // },
+    // {
+    //   id: 4,
+    //   image: IMG4,
+    //   title: "Simulated Fish Tank",
+    //   github: "https://github.com",
+    //   demo: "https://github.com",
+    // },
   ];
 
   return (

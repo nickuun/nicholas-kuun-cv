@@ -32,6 +32,7 @@ const Footer = () => {
             <a href="#contact">Contact</a>
           </li>
         </ul>
+        <br></br>
         <div className="footer__socials">
           <a href="https://"><SiWhatsapp></SiWhatsapp></a>
           <a href="https://"><FaLinkedinIn></FaLinkedinIn></a>

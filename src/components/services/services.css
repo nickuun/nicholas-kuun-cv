@@ -3,12 +3,15 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
 }
+
 .service {
   background: var(--color-bg-variant);
   border-radius: 0 0 2rem 2rem;
   border: 1px solid var(--color-primary);
   height: fit-content;
   transition: var(--transition);
+  padding: 1.5rem; /* Added padding */
+  box-sizing: border-box; /* Ensures padding is included in the width/height */
 }
 
 .service:hover {
@@ -26,14 +29,15 @@
 
 .service__head h3 {
   color: var(--color-bg);
-  font-size: 1rem;
+  font-size: 1.1rem; /* Slightly larger font */
   text-align: center;
 }
 
-.service_list li {
+.service__list li {
   display: flex;
   gap: 1rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem; /* Slightly increased spacing */
+  padding: 0.5rem 0; /* Added vertical padding */
 }
 
 .service__list-icon {
@@ -41,8 +45,10 @@
   margin-top: 2px;
 }
 
-.service_list p {
-  font-size: 0.9rem;
+.service__list p {
+  font-size: 1rem; /* Increased font size for better readability */
+  line-height: 1.5; /* Increased line height for better spacing */
+  word-wrap: break-word; /* Ensures long words break to the next line */
 }
 
 /* 
@@ -62,5 +68,8 @@
   .services__container {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+  .service {
+    padding: 1rem; /* Reduced padding for smaller screens */
   }
 }

@@ -17,30 +17,26 @@ const Testimonals = (props) => {
   const testimonialObjects = [
     {
       avatar: avatar1,
-      name: "Tina Snow",
-      review:
-        "This is text and says how well the dude did while he was with the company or whatever?",
+      name: "Tina",
+      review: "Nicholas's guidance made complex tasks seem manageable, and he always encouraged a collaborative, positive atmosphere.",
     },
     {
       avatar: avatar2,
-      name: "Chance John",
-      review:
-        "This is text and says how well the dude did while he was with the company or whatever?",
+      name: "Chris",
+      review: "Working with Nick was a game-changer. His Agile expertise and team-first mentality helped us hit our goals consistently and with high morale.",
     },
     {
       avatar: avatar3,
-      name: "Johna Cat",
-      review:
-        "This is text and says how well the dude did while he was with the company or whatever?",
+      name: "Jason",
+      review: "Nick has a knack for streamlining processes and making sure everyone is on the same page. His mentorship has been invaluable to our team's development.",
     },
     {
       avatar: avatar4,
-      name: "Tina Turner",
-      review:
-        "This is text and says how well the dude did while he was with the company or whatever?",
+      name: "André",
+      review: "Nicholas's ability to adapt and guide us through challenges with confidence made him a standout leader.",
     },
   ];
-
+  
   return (
     <section id="testimonials">
       <h5>A Few Client & Performance</h5>

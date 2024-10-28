@@ -10,96 +10,73 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>
-              <h3>UI/UX Design</h3>
-            </h3>
+            <h3>Agile Coaching</h3>
           </div>
           <ul className="service__list">
             <li>
               <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+              <p>Guiding teams to effectively adopt Agile frameworks.</p>
             </li>
             <li>
               <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+              <p>Conducting workshops on Agile practices and tools.</p>
             </li>
             <li>
               <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+              <p>Coaching individuals to manage projects independently.</p>
             </li>
             <li>
               <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+              <p>Facilitating retrospectives to drive continuous improvement.</p>
             </li>
-            <li>
-              <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
-            </li>
-            {/* END UI UX */}
           </ul>
         </article>
+
         <article className="service">
           <div className="service__head">
-            <h3>
-              <h3>Web Development</h3>
-            </h3>
+            <h3>Project Strategy</h3>
           </div>
           <ul className="service__list">
             <li>
               <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+              <p>Defining clear project roadmaps and objectives.</p>
             </li>
             <li>
               <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+              <p>Aligning team goals with the company's vision.</p>
             </li>
             <li>
               <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+              <p>Creating detailed project plans to ensure timely delivery.</p>
             </li>
             <li>
               <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+              <p>Managing resources to maximize project efficiency.</p>
             </li>
-            <li>
-              <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
-            </li>
-            {/* END Web Dev */}
           </ul>
         </article>
+
         <article className="service">
           <div className="service__head">
-            <h3>
-              <h3>Content Creation</h3>
-            </h3>
+            <h3>Team Building</h3>
           </div>
           <ul className="service__list">
             <li>
               <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+              <p>Encouraging open communication and feedback.</p>
             </li>
             <li>
               <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+              <p>Facilitating team-building activities and bonding exercises.</p>
             </li>
             <li>
               <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+              <p>Leading retrospectives for growth and development.</p>
             </li>
             <li>
               <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+              <p>Creating a positive and inclusive work environment.</p>
             </li>
-            <li>
-              <BsCheck2 className="service__list-icon"></BsCheck2>
-              <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
-            </li>
-            {/* END Content Creation */}
           </ul>
         </article>
       </div>

@@ -7,7 +7,8 @@ import { MdSchool } from "react-icons/md";
 
 const About = () => {
   const paragraph =
-    "I am currently working as an Associate Application Developer at Autumn Leaf IT. I am humbled by the fact that there is always so much more for me to learn; I strive for an an environment that fosters this sort of attainment.\n I love working collectively as a team, deligating actions to make daunting tasks seem effortless.";
+    "As a consultant and Scrum Master at Autumn Leaf IT, I guide multiple teams through the challenges of digital product development. I’m all about creating focus, clearing roadblocks, and helping projects move from ideas to successful launches. My job is about more than just ticking boxes—I'm here to mentor teams, streamline processes, and make sure we're always learning and improving together. I love turning complex goals into clear, manageable steps and seeing our collective efforts come to life.";
+
   return (
     <section id="about">
       <h5>Get To Know A Little More</h5>
@@ -30,22 +31,20 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon"></FaAward>
               <h5>Experience</h5>
-              <small>2+ Years</small>
+              <small>4+ Years</small>
             </article>
             <article className="about__card">
               <FaUsers className="about__icon"></FaUsers>
-              <h5>Clients</h5>
-              <small>3+ Clients</small>
+              <h5>Projects Impacted</h5>
+              <small>7+ Projects</small>
             </article>
             <article className="about__card">
               <BiGitBranch className="about__icon"></BiGitBranch>
-              <h5>Tickets</h5>
-              <small>50+ Completed</small>
+              <h5>Sprints Completed</h5>
+              <small>200+ Completed</small>
             </article>
           </div>
-          <p>
-           {paragraph}
-          </p>
+          <p>{paragraph}</p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>

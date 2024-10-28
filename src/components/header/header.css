@@ -41,9 +41,24 @@ header {
   position: absolute;
   left: calc(50% - 11rem);
   margin-top: 4rem;
+  padding: 1.5rem;
   border-radius: 12rem 12rem 0 0;
-  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
+.me img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mask-image: radial-gradient(
+    circle, 
+    rgba(0, 0, 0, 1) 70%, 
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-radius: 12rem 12rem 0 0; /* Match container's border radius */
+}
+
 
 .scroll__down {
   position: absolute;
